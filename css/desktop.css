@@ -6,7 +6,7 @@
 
 /* ------body styling-------- */
 #weather {
-    background-image: url("../imgs/background-images/day.jpg");
+    background-image: url("../imgs/background-images/desktop.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,7 +15,7 @@
 }
 
 button {
-    height: 2.5vw;
+    height: 2.0vw;
     width:  15%;
     margin: auto;
     background-image:url("../imgs/Search.png");
@@ -84,15 +84,14 @@ button {
     position: center;
     margin: auto;
     width:50%;
-   font-size: 4vw;
-   opacity: 0.9;
+    font-size: 4vw;
+    opacity: 0.9;
   }
 
   .location {
     position: relative;
     text-align: center;
     margin-bottom: 5%;
-
   }
 
   #humidity, #pressure, #windSpeed, #wind-direction, #unit, #visibility, #uv , #feelslike, #dewpoint {
@@ -302,7 +301,7 @@ button {
  	width: 43%;
  }
 
- /* The company logo */
+ /* The company logo and copyrights */
 
  .footer-distributed h3{
  	color:  #ffffff;
@@ -313,9 +312,19 @@ button {
  .footer-distributed h3 span{
  	color:  #ff0000;
   font-size: 35px;
+  text-decoration: none;
  }
 
-
+ .copyrights{
+   color: white;
+ }
+ .footer-distributed .footer-left p a{
+ 	color:  #ffffff;
+ 	text-decoration: none;;
+ }
+ .footer-distributed .footer-left p a:hover{
+   color: red;
+ }
 
  .footer-distributed .footer-company-name{
  	color:  #FFFF00;
@@ -367,6 +376,9 @@ button {
  	color:  #ffffff;
  	text-decoration: none;;
  }
+ .footer-distributed .footer-center p a:hover{
+   color: red;
+ }
 
 
  /* Footer Right */
@@ -399,11 +411,6 @@ button {
  	margin-top: 25px;
  }
 
- /*Misc*/
- .copyrights{
-   color: white;
- }
-
  .footer-distributed .footer-icons a{
  	display: inline-block;
  	width: 35px;
@@ -419,6 +426,9 @@ button {
 
  	margin-right: 3px;
  	margin-bottom: 5px;
+ }
+ .footer-distributed .footer-icons a:hover{
+   color:black;
  }
 
  #logo {
