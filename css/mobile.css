@@ -68,7 +68,6 @@
     padding-left: 3%;
     color: white;
     text-shadow: 1.5px 1.5px tomato;
-
 }
 
 img {
@@ -78,8 +77,6 @@ img {
 
 .humidity1, .pressure1, #wind-speed, #wind-direction {
   padding-bottom: 5px;
-
-
 }
 
 .dewpoint, .feelslike, .visibility, .uv, .wind-speed, .wind-direction, .pressure, .humidity {
@@ -87,16 +84,13 @@ img {
   padding-right: 2%;
   padding-bottom: 2%;
   width: 18%;
-
 }
 
 ul {
     list-style-type: none;
     padding-left: 10px;
     padding-right: 10px;
-
 }
-
 
 .verticalLine2{
   border: thick solid #222;
@@ -118,7 +112,6 @@ ul {
   opacity: 0.8;
   margin: 4% 2%;
   padding-left: 3%;
-
 }
 
 .verticalLine1 {
@@ -142,7 +135,6 @@ ul {
   margin: 4% 2%;
   padding-left: 3%;
 }
-
 
 #days {
   font-size: 3vw;
@@ -169,9 +161,7 @@ ul {
   opacity:0.8;
   margin: auto;
   margin-top: 2%;
-
 }
-
 
 #vertical2, #vertical3, #vertical4, #vertical1 {
   display: inline-block;
@@ -194,8 +184,6 @@ ul {
   margin: 2% 2%;
   opacity:0.8;
 }
-
-
 
 #day1, #day2, #day3, #day4, #day5 {
   padding-bottom: 5px;
@@ -238,6 +226,7 @@ ul {
   transform-origin: 50% 50% 0;
    text-shadow: 1.5px 1.5px tomato;
 }
+
 #date1, #date2, #date3, #date4, #date5 {
   padding-bottom: 3%;
   text-align: center;
@@ -410,7 +399,6 @@ text-shadow: 1px 1px 1px #222;
 #date {
     font-size: 5vw;
     opacity: 0.5;
-
 }
 
 .today-date {
@@ -441,6 +429,7 @@ color: white;
   text-shadow: 1.5px 1.5px 1.5px tomato;
   color: white;
 }
+
 #logo {
    width: 200px;
    height: 60px;
@@ -461,6 +450,7 @@ color: white;
 :-moz-placeholder { /* Firefox 18- */
   color: #222;
 }
+
 button {
   height: 35px;
   width: 35px;
@@ -501,6 +491,7 @@ button:active {
   height: 45px;
   margin-left: 0.5%
 }
+
 #search3 {
   margin-left: 2%;
 }
@@ -525,9 +516,7 @@ button:active {
 
 .flexsearch--input:focus {
   border-color: #333;
-
 }
-
 
 /* styling footer */
 footer {
