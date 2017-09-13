@@ -38,7 +38,7 @@ button {
   }
 
   button:active {
-    border-color: red;
+    border-color: yellow;
   }
 
   .ul {
