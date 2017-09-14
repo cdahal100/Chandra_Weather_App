@@ -43,8 +43,6 @@ var condi3;
 var condi4;
 var condi5;
 
-
-
    /* assigne an html element to the variable declared above */
    window.onload = function () {
        date = document.getElementById('date');
@@ -99,12 +97,10 @@ var condi5;
            }
    };
 
-
    /* getting the latitude and longitude of the user */
    function showPosition(position) {
         updateByGeo(position.coords.latitude, position.coords.longitude);
    }
-
 
    /* API request */
    function updateByGeo(lat, lon) {
@@ -132,7 +128,6 @@ var condi5;
         document.getElementById("search1").value = "";
         document.getElementById("search2").value = "";
       }
-
 
    /* inner the weather API  json information into the variable declared above */
    function update(weather) {
@@ -229,7 +224,6 @@ function sendRequest(url) {
                   weather.high3 = data.forecast.simpleforecast.forecastday[3].high.fahrenheit;
                   weather.high4 = data.forecast.simpleforecast.forecastday[4].high.fahrenheit;
                   weather.high5 = data.forecast.simpleforecast.forecastday[5].high.fahrenheit;
-
                   update(weather);
               });
           }
